@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+    background-color: #fffff5;
+}
+
+.all {
+    display: inline-block; 
+    width: 100%;
+}
+
+/* top navigation bar */
+nav ul {
+    padding: 1%;
+    display:flex;
+    position: fixed; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px;
+    justify-content:space-between;
+    list-style-type: none;
+    width:50%;
+    margin:auto; background-image: linear-gradient(#ffffff, #000000);
+    border-radius: 15px;
+}
+
+nav {
+    padding-bottom: 5%;
+}
+
+li a {
+    padding: 2px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+li a:hover {
+    color: #ff0000 /* text color changes when hover */; 
+    background-color: #f5f5dc /* text background color changes when hover */;
+    border-radius: 15px;
+}
+
+
+h1 {
+    text-align: center; 
+    font-family: 'Oxygen', sans-serif;
+}
+
+.s1_img {
+    padding-right: 20%; 
+    padding-left: 20%;
+}
+
+.s1_img img {
+    border-radius: 40px; 
+    width: 100%; 
+    height: 500px; 
+    box-shadow: 10px 10px 10px #808080;
+}
+
+.s1_img img:hover {
+    filter: grayscale(75%); 
+    transform: scale(1.1); 
+    transition-duration: 2s;
+}
+
+.s1_p p {
+    text-align: left; 
+    font-family: 'Oxygen', sans-serif; 
+    padding: 2% 25% 2% 25%;
+}
+
+.l_p, .p_all, .all_p, .p_l {
+    display: flex; 
+    width: 50%; 
+    padding: 2% 25% 2% 25%;
+}
+
+.l_p_text, .p_all_text, .all_p_text, .p_l_text {
+    padding-left: 5%; 
+    padding-right: 5%; 
+    margin-top: auto; 
+    margin-bottom: auto;
+}
+
+.container_l_p_text, .container_p_all_text, .container_all_p_text, .container_p_l_text {
+    margin-top: auto; 
+    margin-bottom: auto;
+}
+
+.cntnr {
+    width: 100%;
+}
+
+iframe {
+    box-shadow: 10px 10px 10px #cccccc;
+}
+
+.pic_1, .pic_2, .pic_3 {
+    display: flex; 
+    justify-content: space-around; 
+    padding: 2% 10% 2% 10%;
+}
+
+.pics img {
+    width: 100%; 
+    box-shadow: 10px 10px 10px #738c73;
+}
+
+.text {
+    text-align: center; 
+    margin: auto; 
+    font-family: 'Oxygen', sans-serif; 
+    font-size: 25px; 
+    color: #0f3d0f;
+}
+
+.text a {
+    text-decoration: none;
+}
+
+
